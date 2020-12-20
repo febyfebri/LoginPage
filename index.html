@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Nyepeda - Gowes Makin Asik</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo" id="logo">
+            <h1 class="logo-name">NYEPEDA</h1>
+            <p class="logo-des">GOWES LEBIH ASIK</p>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="login" id="login">
+                <h1 class="welcome">Selamat Datang</h1>
+                <p>Apakah Anda Sudah Mempunyai Akun ? jika Sudah Silahakan Masuk</p>
+                <button class="switch-button" id="slide-right-button">Masuk</button>
+            </div>
+            <div class="daftar" id="daftar">
+                <h1 class="welcome">Hello, Teman</h1>
+                <p>Silahkan Daftar Untuk Mencari Petualanganmu Disini</p>
+                <button class="switch-button" id="slide-left-button">Daftar</button>
+            </div>
+        </div>
+        <div class="form">
+            <div class="login-form" id="login-info">
+                <h1>Login</h1>
+                    <form action="login.php" id="login-form">      
+                        <input type="email" placeholder="Email"/><br>
+                        <input type="password" placeholder="Kata Sandi"/>
+                        <p class="lupa-kata-sandi">Lupa Kata Sandi ?</p>
+                        <button class="control-button in">Masuk</button>
+                    </form>
+            </div>
+            <div class="daftar-form" id="daftar-info">
+                <h1>Daftar</h1>
+                <form action="daftar.php" id="daftar-form">
+                    <input type="text" placeholder="Nama Lengkap"/><br>
+                    <input type="email" placeholder="Email"/><br>
+                    <input type="tel" placeholder="No Telepon"/><br>
+                    <input type="date" placeholder="Tanggal Lahir"/><br>
+                    <input type="password" placeholder="Kata Sandi"/>
+                    <button class="control-button up">Daftar</button>
+                </form>
+              </div>
+        </div>
+    </div>
+    <script src="Script/main.js"></script>
+</body>
+</html>
